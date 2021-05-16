@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="#" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <title>site</title>
+</head>
+
+<body>
+    <div id="dataToUse">
+        dataA:<textarea v-model="dataA" rows="4" cols="40"></textarea>
+        dataB:<textarea v-model="dataB" rows="4" cols="40"></textarea>
+        <button v-on:click="dataCalculate">Calculate</button>
+        <br>
+        dataACombined:<textarea v-model="dataACombined" rows="4" cols="40"></textarea>
+        <!-- <input v-model="dataUnion">
+        <input v-model="dataIntersection">
+        <input v-model="dataOnlyA">
+        <input v-model="dataOnlyB"> -->
+    </div>
+    <script type="text/javascript" src="/javascripts/site.js"></script>
+</body>
+
+</html>
